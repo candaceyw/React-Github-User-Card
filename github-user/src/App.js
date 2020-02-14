@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import UserCard from './components/UserCard'
+import FollowersCard from './components/FollowersCard';
 
 
 class App extends Component {
@@ -61,6 +62,20 @@ componentDidMount() {
     bio={this.state.user.bio}
     url={this.state.user.html_url}
     />
+    <div>
+      <h1>GitHub Stalkers... I mean Followers</h1>
+      <div className="followers">
+        {this.state.followers.map(user => {
+          return (
+            <FollowersCard
+            img={user.avatar_url}
+            name={user.login}
+            url={user.html_url}
+            />
+          )
+        })}
+      </div>
+    </div>
     </div>
   );
 }
