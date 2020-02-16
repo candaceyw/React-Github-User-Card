@@ -73,7 +73,7 @@ componentDidMount() {
         <div className="header__text-box">
             <h1 class="heading-primary"> 
                 <span class="heading-primary--main">GitHub</span>
-                <span class="heading-primary--sub">where dev lives</span>
+                <span class="heading-primary--sub">where developement lives</span>
             </h1>
           <div>
               <h1 className="heading heading-primary"> GitHub Contribution Calendar</h1>
@@ -90,7 +90,7 @@ componentDidMount() {
 
     <div>
       
-      <div class="u-center-text u-margin-bottom-big">
+      <div class="u-center-text u-margin-bottom-medium">
                     <h2 class="heading-secondary">
                     GitHub Followers
                     </h2>

@@ -373,7 +373,7 @@ body {
 
 .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
-  margin: 0 5px 10px 5px;
+  margin: 0 10px 20px 10px;
 }
 
 .col-2-of-3 {
@@ -424,7 +424,7 @@ body {
 }
 
 .heading.heading-primary {
-  letter-spacing: 1rem;
+  letter-spacing: 0.75rem;
 }
 
 .section-about {
