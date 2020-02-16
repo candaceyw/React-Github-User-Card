@@ -108,8 +108,9 @@
 
             li {
                 text-align: center;
-                font-size: 1.2rem;
+                font-size: 1.6rem;
                 padding: .8rem;
+                line-height: normal;
                 
                 &:not(:last-child) {
                     border-bottom: 1px solid $color-grey-light-2

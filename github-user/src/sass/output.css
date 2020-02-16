@@ -304,8 +304,9 @@ body {
 }
 .card__details ul li {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   padding: 0.8rem;
+  line-height: normal;
 }
 .card__details ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
