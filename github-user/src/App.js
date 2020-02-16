@@ -73,7 +73,7 @@ componentDidMount() {
         <div className="header__text-box">
             <h1 class="heading-primary"> 
                 <span class="heading-primary--main">GitHub</span>
-                <span class="heading-primary--sub">where developement lives</span>
+                <span class="heading-primary--sub">where development lives</span>
             </h1>
           <div>
               <h1 className="heading heading-primary"> GitHub Contribution Calendar</h1>
