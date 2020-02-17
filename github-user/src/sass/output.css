@@ -220,11 +220,11 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 58rem;
+  height: 64rem;
 }
 .card__side {
   font-size: 2rem;
-  height: 58rem;
+  height: 64rem;
   transition: all 0.8s ease;
   position: absolute;
   top: 0;
@@ -262,7 +262,8 @@ body {
 }
 .card__picture {
   background-size: cover;
-  height: 36rem;
+  height: 40rem;
+  width: -webkit-fill-available;
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -276,7 +277,7 @@ body {
   text-align: right;
   color: #fff;
   position: absolute;
-  top: 28rem;
+  top: 32rem;
   right: 2rem;
   width: 55%;
 }
@@ -318,6 +319,10 @@ body {
   transform: translate(-50%, -50%);
   width: 90%;
   text-align: center;
+}
+
+.card-img {
+  width: -webkit-fill-available;
 }
 
 .composition {

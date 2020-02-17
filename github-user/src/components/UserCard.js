@@ -8,7 +8,7 @@ import React, { Component } from 'react'
             <div className="card">
                 <div className="card__side card__side--front">
                     <div className="card__picture card__picture--3">
-                    <img src={this.props.img} alt="avatar" />
+                    <img src={this.props.img} alt="avatar" className="card-img"/>
                     </div>
                     <h4 className="card__heading">
                         <span className="card__heading-span card__heading-span--3">
